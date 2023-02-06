@@ -1,0 +1,14 @@
+.gameboard {
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: 20vw 20vw 20vw;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 0.2vw;
+  background-color: black;
+}
+
+.square {
+  background-color: gold;
+  height: 100%;
+}
